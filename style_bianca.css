@@ -1,0 +1,24 @@
+/*	External css file
+	Lab 1
+	Name: Bianca Nascimento Campos
+*/
+
+body{
+	background-color:#EAD8FF;
+}
+a{ 
+	text-decoration:none; 
+	color:#000000; 
+} 
+
+	#header1{
+
+			color:#0078A7;
+			font-size: 3em;	
+			margin-left: 5px;
+			font-style: italic;
+			text-align: left;
+
+
+	}
+
