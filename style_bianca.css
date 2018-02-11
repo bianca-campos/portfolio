@@ -1,25 +1,61 @@
-/*	External css file
-	Lab 1
-	Name: Bianca Nascimento Campos
-*/
+/*	Name: Bianca Nascimento Campos
+	Date: */
 
-body{
+
+/*body{
 	background-color:#EAD8FF;
-}
+}*/
 a{ 
 	text-decoration:none; 
 	color:#000000; 
 } 
 
-	#header1{
+#header{
 
-			color:#0078A7;
-			font-size: 3em;	
-			margin-left: 5px;
-			font-style: italic;
-			text-align: left;
+	color:#0078A7;
+	font-size: 3em;	
+	margin-left: 5px;
+	font-style: italic;
+	text-align: left;
+}
 
 
-	}
+.about{
 
-	/*.class - class starts with . tr hover*/
+}
+
+
+.experience{
+
+}
+
+
+.skills{
+
+}
+
+
+.projects{
+
+}
+
+
+.courses{
+
+}
+
+
+.index-footer{
+	height: 60px;
+	position: fixed;
+	bottom: 0;
+	background-color: #EAD8FF;  
+	text-align: center;
+	width: 100%;
+	z-index: 999;
+}
+
+
+footer a img{
+	text-align: left;
+}
