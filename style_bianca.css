@@ -2,60 +2,69 @@
 	Date: */
 
 
-/*body{
-	background-color:#EAD8FF;
-}*/
-a{ 
-	text-decoration:none; 
-	color:#000000; 
-} 
-
-#header{
-
-	color:#0078A7;
-	font-size: 3em;	
-	margin-left: 5px;
-	font-style: italic;
-	text-align: left;
+body{
+	background-image: url("images/bk3.jpg");
+	background-attachment: fixed;
+	/*opacity: 0.75;*/
+/*	margin-left: auto;
+	margin-right: auto;
+	background-color: #F0F0F0;
+	font-family: Arial;
+	font-size: 1em;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;*/
 }
 
+.content{
+	background:rgba(255,255,255,0.75);
+	width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
 
+.nav-bianca{
+	padding: 20px 16px;
+}
 .about{
+	padding: 30px 16px;
 
 }
 
 
 .experience{
-
+	padding: 5px 16px;
 }
 
 
 .skills{
-
+	padding: 30px 16px;
 }
 
 
 .projects{
-
+	padding: 30px 16px;
 }
 
 
 .courses{
-
+	padding: 10px 16px;
+	padding-bottom: 15px;
 }
 
 
 .index-footer{
 	height: 60px;
-	position: fixed;
+	/*position: fixed;*/
 	bottom: 0;
-	background-color: #EAD8FF;  
+	background-color: #0078A7;  
 	text-align: center;
 	width: 100%;
 	z-index: 999;
 }
 
 
-footer a img{
+footer a{
 	text-align: left;
+	color: white;
 }
