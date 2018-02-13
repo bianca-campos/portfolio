@@ -1,12 +1,12 @@
 /*  Name: Bianca Nascimento Campos
-    Date: */
+    Date: 2/15/2018*/
 
 .progress{
     height: 1rem !important;
     border-radius: 0;
     box-shadow: none;
     line-height: 35px;
-    background:#d6d6d6;
+    background-color: #9CC3E5 !important;
 }
 .progressbar-title{
     color:#333;

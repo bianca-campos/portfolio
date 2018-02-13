@@ -1,5 +1,5 @@
 /*	Name: Bianca Nascimento Campos
-	Date: */
+	Date: 2/15/2018*/
 
 
 body{
@@ -25,25 +25,64 @@ body{
 
 .nav-bianca{
 	padding: 20px 16px;
+	color: white !important;
 }
+
+.nav-link{
+	color: white !important;
+}
+
+.nav-link:hover{
+	color: #FFA4CA !important;
+}
+
 .about{
 	padding: 30px 16px;
-
+	border-bottom: 3px solid #6BCBFE;
+	float: right;
+/*	opacity: 0.75;
+    border-radius: 5px;
+*/
 }
 
+.about-img img{
+/*	background: url("images/image1-1.jpeg");
+	width: 30%;
+	height: 50%;*/
+	/*opacity: 0.75;*/
+	float: left;
+}
+
+
+/*  #br-main-image {
+    background: url("images/brazil_back.jpeg");
+    background-size: cover;
+    background-position: 0% 40%;
+    border-bottom: 30px solid #ffdf00;
+    width: 100%;
+    height: 500px;
+  }*/
+
+.col-centered{
+float: none;
+margin: 0 auto;
+}
 
 .experience{
 	padding: 5px 16px;
+	border-bottom: 3px solid #6BCBFE;
 }
 
 
 .skills{
 	padding: 30px 16px;
+	border-bottom: 3px solid #6BCBFE;
 }
 
 
 .projects{
 	padding: 30px 16px;
+	border-bottom: 3px solid #6BCBFE;
 }
 
 
@@ -55,12 +94,12 @@ body{
 
 .index-footer{
 	height: 60px;
-	/*position: fixed;*/
 	bottom: 0;
 	background-color: #0078A7;  
 	text-align: center;
 	width: 100%;
 	z-index: 999;
+	padding-top: 15px;
 }
 
 
