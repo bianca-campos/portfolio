@@ -64,6 +64,7 @@ margin: 0 auto;
 .experience{
 	padding: 5px 16px;
 	border-bottom: 3px solid #6BCBFE;
+
 }
 
 
@@ -73,10 +74,10 @@ margin: 0 auto;
 }
 
 
-.projects{
+/*.projects{
 	padding: 30px 16px;
 	border-bottom: 3px solid #6BCBFE;
-}
+}*/
 
 
 .courses{
@@ -85,7 +86,7 @@ margin: 0 auto;
 }
 
 .courses div{
-	padding: 10px 16px;
+	padding: 10px 0px;
 	padding-bottom: 15px;	
 }
 
