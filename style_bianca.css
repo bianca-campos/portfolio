@@ -5,6 +5,8 @@
 body{
 	background-image: url("images/bk3.jpg");
 	background-attachment: fixed;
+	font-family: Arial;
+	font-size: 1em;
 	/*opacity: 0.75;*/
 /*	margin-left: auto;
 	margin-right: auto;
@@ -33,7 +35,7 @@ body{
 }
 
 .nav-link:hover{
-	color: #FFA4CA !important;
+	color: #B2F3FF !important;
 }
 
 .about{
@@ -53,15 +55,6 @@ body{
 	float: left;
 }
 
-
-/*  #br-main-image {
-    background: url("images/brazil_back.jpeg");
-    background-size: cover;
-    background-position: 0% 40%;
-    border-bottom: 30px solid #ffdf00;
-    width: 100%;
-    height: 500px;
-  }*/
 
 .col-centered{
 float: none;
@@ -89,6 +82,11 @@ margin: 0 auto;
 .courses{
 	padding: 10px 16px;
 	padding-bottom: 15px;
+}
+
+.courses div{
+	padding: 10px 16px;
+	padding-bottom: 15px;	
 }
 
 
