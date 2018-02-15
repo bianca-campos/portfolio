@@ -69,12 +69,12 @@ margin: 0 auto;
 	padding-bottom: 15px;
 }
 
-#divCourses{
+.divCourses{
 	padding: 10px 20px;
 	padding-bottom: 15px;	
 }
 
-#divBold{
+.divBold{
 	font-weight: bold;
 	font-size: 1.1em;
 }
