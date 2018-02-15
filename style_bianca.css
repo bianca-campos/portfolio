@@ -1,5 +1,5 @@
 /*	Name: Bianca Nascimento Campos
-	Date: 2/15/2018*/
+	Date: 2/16/2018*/
 
 
 body{
@@ -7,15 +7,6 @@ body{
 	background-attachment: fixed;
 	font-family: Arial;
 	font-size: 1em;
-	/*opacity: 0.75;*/
-/*	margin-left: auto;
-	margin-right: auto;
-	background-color: #F0F0F0;
-	font-family: Arial;
-	font-size: 1em;
-	padding: 5px;
-	padding-left: 20px;
-	padding-right: 20px;*/
 }
 
 .content{
@@ -35,26 +26,27 @@ body{
 }
 
 .nav-link:hover{
-	color: #B2F3FF !important;
+	color: #9FEEFC !important;
 }
+
 
 .about{
 	padding: 30px 16px;
 	border-bottom: 3px solid #6BCBFE;
 	float: right;
-/*	opacity: 0.75;
-    border-radius: 5px;
-*/
 }
 
 .about-img img{
-/*	background: url("images/image1-1.jpeg");
-	width: 30%;
-	height: 50%;*/
-	/*opacity: 0.75;*/
+	width: 35%;
+	height: 55%;
+	opacity: 0.95;
 	float: left;
+	padding-right: 30px;
 }
 
+.about-text div{
+	padding: 3px;
+}
 
 .col-centered{
 float: none;
@@ -64,7 +56,6 @@ margin: 0 auto;
 .experience{
 	padding: 5px 16px;
 	border-bottom: 3px solid #6BCBFE;
-
 }
 
 
@@ -73,21 +64,19 @@ margin: 0 auto;
 	border-bottom: 3px solid #6BCBFE;
 }
 
-
-/*.projects{
-	padding: 30px 16px;
-	border-bottom: 3px solid #6BCBFE;
-}*/
-
-
 .courses{
 	padding: 10px 16px;
 	padding-bottom: 15px;
 }
 
-.courses div{
-	padding: 10px 0px;
+#divCourses{
+	padding: 10px 20px;
 	padding-bottom: 15px;	
+}
+
+#divBold{
+	font-weight: bold;
+	font-size: 1.1em;
 }
 
 

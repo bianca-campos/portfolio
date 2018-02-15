@@ -1,5 +1,5 @@
 <!--Name:  Bianca Nascimento Campos 
-	Date: 02/15/2018-->
+	Date: 02/16/2018-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="style_timeline.css">
     <link rel="stylesheet" type="text/css" href="style_pbar.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
 
 <body>   
@@ -19,13 +19,13 @@
 <!-- Navigation Bar -->
 <div class="nav-bianca">
 <div class="container-fluid">
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top navbar-light" style="background-color: #0078A7;">
+<nav class="navbar navbar-toggleable-md  fixed-top navbar-light" style="background-color: #0078A7;">
          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
          </button>
          <a class="navbar-brand">Bianca Campos</a>
          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="nav navbar-nav navbar-right">
                <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                </li>
@@ -38,9 +38,6 @@
                <li class="nav-item">
                   <a class="nav-link" href="#skill">Skills</a>
                </li>
-<!--                <li class="nav-item">
-                  <a class="nav-link" href="#project">Projects</a>
-               </li> -->
                <li class="nav-item">
                   <a class="nav-link" href="#course">Couses</a>
                </li>
@@ -52,25 +49,23 @@
 </header>
 
 <div class="content">
-
 <!-- About -->
 <div id="about">
-    <div class="about">
-        
+    <div class="about">      
 <!-- About image -->
-    <p>
-    <img src="images/image3.jpeg" alt="Personal Interests" title="Personal Interests" height="90%" width="35%">  
-    Brazilian living in Canada, who works better listening music (all kind of)<br> 
-	<i class="fa fa-cloud-download" aria-hidden="true"></i> Born in: Cruz Alta/RS - BR<br>
-	<i class="fa fa-thumb-tack" aria-hidden="true"></i>  Lived in: Caxias do Sul/RS and POA/RS- BR<br>
-	<i class="fa fa-location-arrow" aria-hidden="true"></i>  Living in: Vancouver/BC - CA<br>
-    <br>
-        Personal interests:<br>
-        <i class="fa fa-coffee" aria-hidden="true"></i> Tea<br>
-        <i class="fa fa-headphones" aria-hidden="true"></i> Music<br>
-        <i class="fa fa-book" aria-hidden="true"></i> Books<br>
-        <i class="fa fa-rocket" aria-hidden="true"></i> Technology to help people lives better<br>
-    </p>
+  <div class="about-img"><img src="images/image3.jpeg" alt="Personal Interests" title="Personal Interests"></div>
+  <div class="about-text">
+  <div id="divBold">Brazilian living in Canada, who works better listening music (all kind of)</div>
+	<div><i class="fa fa-cloud-download" aria-hidden="true"></i> Born in: Cruz Alta/RS - BR</div>
+	<div><i class="fa fa-thumb-tack" aria-hidden="true"></i>  Lived in: Caxias do Sul/RS and POA/RS- BR</div>
+	<div><i class="fa fa-location-arrow" aria-hidden="true"></i>  Living in: Vancouver/BC - CA</div>
+  <br>
+  <div id="divBold">Personal interests:</div>
+  <div><i class="fa fa-coffee" aria-hidden="true"></i> Tea</div>
+  <div><i class="fa fa-headphones" aria-hidden="true"></i> Music</div>
+  <div><i class="fa fa-book" aria-hidden="true"></i> Books</div>
+  <div><i class="fa fa-rocket" aria-hidden="true"></i> Technology to help people lives better</div>
+</div> 
 </div>
 </div>
 
@@ -212,12 +207,12 @@ The analyst may help test the system and create system documentation and user ma
 <div class="projects">
 	<h4>PROJECTS</h4>
 		<p>Consortium BPM</p>
-        <p>Software maintenance Consortium</p>
-        <p>Money transfer (MoneyGram)</p>
-        <p>AGCO Parts</p>
-        <p>EST</p>
-        <p>Energy SMS</p>
-        <p>QA - SOX(business energy)</p>
+    <p>Software maintenance Consortium</p>
+    <p>Money transfer (MoneyGram)</p>
+    <p>AGCO Parts</p>
+    <p>EST</p>
+    <p>Energy SMS</p>
+    <p>QA - SOX(business energy)</p>
 </div>
 </div> -->
 
@@ -226,34 +221,23 @@ The analyst may help test the system and create system documentation and user ma
 <div id="course">
 <div class="courses">
 	<h4>COURSES</h4>
-    <div>
-        <div><i class="fa fa-book" aria-hidden="true"></i> Web and Mobile Application Development Co-Op Diploma</div>
-        <br>
-        <i class="fa fa-graduation-cap" aria-hidden="true"></i> College
-        <br>
-        <i class="fa fa-calendar" aria-hidden="true"></i> jan 2018 - dec 2019 - (in progress)
-        <br> 
-        <i class="fa fa-map-marker" aria-hidden="true"></i> <a href="http://ciccc.ca/program/web-mobile-application-development-diploma/">Cornerstone </a>
+    <div id="divCourses">
+        <div id="divBold"><i class="fa fa-book" aria-hidden="true"></i> Web and Mobile Application Development Co-Op Diploma</div>
+        <div><i class="fa fa-graduation-cap" aria-hidden="true"></i> College</div>
+        <div><i class="fa fa-calendar" aria-hidden="true"></i> jan 2018 - dec 2019 - (in progress)</div>
+        <div><i class="fa fa-map-marker" aria-hidden="true"></i> <a href="http://ciccc.ca/program/web-mobile-application-development-diploma/">Cornerstone </a></div>
     </div>
-    <div>
-			<i class="fa fa-book" aria-hidden="true"></i> Bank Management
-            <br>
-            <i class="fa fa-graduation-cap" aria-hidden="true"></i> Graduate Certificate
-            <br>
-             <i class="fa fa-calendar" aria-hidden="true"></i> 2013 - 2014
-             <br>
-             <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <a href="http://wpos.com.br/pos-graduacao/curso/mba-executivo-gestao-bancaria-cpa-20/">Wpós </a>
+    <div id="divCourses">
+        <div id="divBold"><i class="fa fa-book" aria-hidden="true"></i> Bank Management</div>
+        <div><i class="fa fa-graduation-cap" aria-hidden="true"></i> Graduate Certificate</div>
+        <div><i class="fa fa-calendar" aria-hidden="true"></i> 2013 - 2014</div>
+        <div><i class="fa fa-map-marker" aria-hidden="true"></i> <a href="http://wpos.com.br/pos-graduacao/curso/mba-executivo-gestao-bancaria-cpa-20/">Wpós </a></div>
     </div>
-    <div>
-            <i class="fa fa-book" aria-hidden="true"></i> System Analysis
-            <br>
-            <i class="fa fa-graduation-cap" aria-hidden="true"></i> College
-            <br>
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2006 - 2010
-            <br>
-            <i class="fa fa-map-marker" aria-hidden="true"></i>
-             <a href="https://www.ftec.com.br/caxias-do-sul/presencial/graduacao/analise-e-desenvolvimento-de-sistemas/">FTEC</a>
+    <div id="divCourses">
+        <div id="divBold"><i class="fa fa-book" aria-hidden="true"></i> System Analysis</div>
+        <div><i class="fa fa-graduation-cap" aria-hidden="true"></i> College</div>
+        <div><i class="fa fa-calendar" aria-hidden="true"></i> 2006 - 2010</div>
+        <div><i class="fa fa-map-marker" aria-hidden="true"></i> <a href="https://www.ftec.com.br/caxias-do-sul/presencial/graduacao/analise-e-desenvolvimento-de-sistemas/">FTEC</a></div>
     </div>
 </div>	
 </div>
