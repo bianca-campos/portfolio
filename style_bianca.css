@@ -7,6 +7,7 @@ body{
 	background-attachment: fixed;
 	font-family: Arial;
 	font-size: 1em;
+	padding-top: 40px;
 }
 
 .content{
@@ -16,9 +17,16 @@ body{
     overflow: hidden;
 }
 
-.nav-bianca{
+.nav-menu{
 	padding: 20px 16px;
 	color: white !important;
+	background-color: #0078A7;
+}
+
+.nav-bianca{
+	padding-left: 20px;
+	color: white !important;
+	font-size: 1.3rem !important;
 }
 
 .nav-link{
@@ -28,16 +36,19 @@ body{
 .nav-link:hover{
 	color: #9FEEFC !important;
 }
+.outline-white {
+    color: white;
+}
 
 
 .about{
-	padding: 30px 16px;
 	border-bottom: 3px solid #6BCBFE;
-	float: right;
+	padding: 30px 16px;
+	padding-bottom: 50px;
 }
 
 .about-img img{
-	width: 35%;
+	width: 110%;
 	height: 55%;
 	opacity: 0.95;
 	float: left;
@@ -54,19 +65,21 @@ margin: 0 auto;
 }
 
 .experience{
-	padding: 5px 16px;
-	border-bottom: 3px solid #6BCBFE;
+	padding: 10px 16px;
+	padding-bottom: 50px;
 }
 
 
 .skills{
-	padding: 30px 16px;
-	border-bottom: 3px solid #6BCBFE;
+	padding: 10px 16px;
+	border-top: 3px solid #6BCBFE;
+	padding-bottom: 50px;
 }
 
 .courses{
 	padding: 10px 16px;
 	padding-bottom: 15px;
+	border-top: 3px solid #6BCBFE;
 }
 
 .divCourses{
@@ -86,7 +99,6 @@ margin: 0 auto;
 	background-color: #0078A7;  
 	text-align: center;
 	width: 100%;
-	z-index: 999;
 	padding-top: 15px;
 }
 
